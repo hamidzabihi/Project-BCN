@@ -1,7 +1,7 @@
 # Project-BCN
 Electronic and Optical Properties of Boron-Carbon-Nitride (BCN) Monolayers calculations by CP2K  
 
-This repository contains all the input files used to study the electron-hole cooling and recombination dynamics in BCN monolayers by performing NA-MD calculations in the extended tight-binding (DFT) framework.
+This repository contains all the input files used to study the electron-hole cooling and recombination dynamics in BCN monolayers by performing NA-MD calculations in the extended Density functional theory (DFT) framework.
 
 Below you can find the details about how we use these inputs to perform NA-MD for electron-hole recombination dynamics in BCN monolayers with using DFT method.
 
