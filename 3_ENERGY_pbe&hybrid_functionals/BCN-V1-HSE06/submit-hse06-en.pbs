@@ -1,0 +1,19 @@
+#PBS -S /bin/bash
+### General Options ###
+#PBS -N BCN-V1-hse06-en
+#PBS -V
+### Resource Handling ###
+#PBS -l nodes=1:ppn=25
+#PBS -q bahonar
+#PBS -l walltime=72:00:00
+### Output Stream Options ###
+### Mail Options ###
+#PBS -m bea
+ 
+### Bash script ###
+cd /home/98722002/Desktop/WORK-DIRECTORY/BCN/03_step2_cp2k/BCN-V1-ENERGY-HSE06
+source /home/98722002/cp2k-v7/cp2k-7.1.0/tools/toolchain/install/setup
+mpirun -np 25 /home/98722002/cp2k-v7/cp2k/exe/local/cp2k.popt -i hse06.inp -o out-BCN-V1-energy.log
+
+
+exit 0
