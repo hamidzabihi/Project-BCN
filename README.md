@@ -1,6 +1,5 @@
 # Project-BCN
-Electronic and Optical Properties of Boron-Carbon-Nitride Monolayers
-electronic structure calculations by CP2K  
+Electronic and Optical Properties of Boron-Carbon-Nitride (BCN) Monolayers calculations by CP2K  
 
 In this repository, we have provided the inputs for different types of electronic structure calculations. here we provide detailed information on how to use CP2K and how the inputs functionality and timings change with different inputs.
 
