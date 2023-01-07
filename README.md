@@ -4,24 +4,25 @@ Electronic and Optical Properties of Boron-Carbon-Nitride (BCN) Monolayers calcu
 
 Below you can find the details about how we use these inputs to performy the electron-hole cooling and recombination dynamics in BCN monolayers by performing NA-MD calculations in the extended Density functional theory (DFT) framework.
 
-Here, we will use a 2D BCN Monolayer as a test and which its cif file is available from the crystallography website. We will use the structure with 48 atoms.
+Here, we will use a 2D BCN Monolayer structure with 48 atoms.
 
 The procedure adopted here is as follows:
 
 
-    Geometry and cell optimization
+    Geometry optimization
     TD-DFT calculations
+    ENERGY calculations
     Hybrid functionals
-        Molecular dynamics
-        Molecular orbitals overlap
-        Molecular orbitals time-overlap
+    Molecular dynamics
+    Molecular orbitals overlap
+    Molecular orbitals time-overlap
 
 We highly welcome improving the functionality of the input files in this repository. So, please feel free to share your inputs and timings with us if you used these inputs.
 
 More details on how to run the code are brought in [Libra CompChemCyberTraining](https://github.com/compchem-cybertraining/Tutorials_Libra/tree/master/6_dynamics/2_nbra_workflows) repository. Detailed explanations about installation and running the CP2K inputs can be found in [here](https://github.com/compchem-cybertraining/Tutorials_CP2K).
 
 
-Below you can find the details about how we use these inputs to perform NA-MD for electron-hole recombination dynamics in C3N4 monolayers with up to 5600 atoms using xTB method.
+Below you can find the details about how we use these inputs to perform NA-MD for electron-hole recombination dynamics in BCN monolayers with using DFT method.
 
 ## 1. Molecular dynamics
 
