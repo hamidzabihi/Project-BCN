@@ -18,20 +18,20 @@ The procedure adopted here is as follows:
 
 We highly welcome improving the functionality of the input files in this repository. So, please feel free to share your inputs and timings with us if you used these inputs.
 
-1. Molecular dynamics
+## 1. Molecular dynamics
 
 This folder contains CP2K inputs for molecular dynamics simulations along with compressed trajectory xyz files. To uncompress the tar.bz2 files that contain the trajectories that are splitted into multiple parts, you can do this in these folders:
 
 cat *.tar.bz2.part* > file.tar.gz.joined
 tar xvf file.tar.gz.joined
 
-2. Molecular orbitals overlaps
+## 2. Molecular orbitals overlaps
 
 The detialed explanation about different inputs used in this folder for computing the molecular overlaps and time-overlaps using CP2K and Libra are brought in here. This folder also contains all the VMD input files that can be used to plot multiple molecular orbitals on the same geometry using together_mode keyword.
-3. Nonadiabatic couplings
+## 3. Nonadiabatic couplings
 
 The computation of the NACs requires the correct path to molecular orbitals overlaps and time-overlaps. Detailed explanation about the parameters used in the step3.py files are brought in thislink. The NACs are computed between excited states in mixed electron and hole excitation basis that are ordered based on their identities.
-4. Nonadiabatic molecular dynamics
+## 4. Nonadiabatic molecular dynamics
 
 The inputs in this folder are used to perform electron-hole recombination dynamics using NA-MD and are adapted to the most recent version of Libra v5.3.0. Below, we explain only about the parameters that you we need to change to perform electron-hole recombination dynamics, such as longer trajectories by repeating the Hamiltonian matrices, defined with user_nsteps. Other parameters are fully explained in details in this link.
 
@@ -62,6 +62,6 @@ We perform the electron-hole recombination dynamics in the spin adapted configur
 hvib_im[:,0] *= np.sqrt(2)
 hvib_im[0,:] *= np.sqrt(2)
 
-5. Visualizing
+## 5. Visualizing
 
 The Python files in folder 5_plot_properties are multiple files that are used for analyzing and plotting the properties of the generated data from previous steps. The e-h-recom_res.py file is used for fitting the NA-MD results and plot_timescales.py file is used for plotting the fitted timescales but before running that, ones needs to run sh extract_data.sh to generate the average timescales with their error bars. plot_electronic_properties.py file is used for plotting the electronic structure poperties such as PDOS, energy vs time, NAC maps, and generating NAC distribution hdf files. The user can modify these scripts as desired. One of the most important libraries that we use is glob which can be used to find files with specific names. For example, for finding the imaginary part of the Hamiltonians, one can use glob.glob('/path/to/nac/folder/*im*') and use the found files for plotting the average NAC maps.
