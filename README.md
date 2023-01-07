@@ -18,11 +18,6 @@ The procedure adopted here is as follows:
 
 We highly welcome improving the functionality of the input files in this repository. So, please feel free to share your inputs and timings with us if you used these inputs.
 
-# Project-C3N4
-
-This repository contains all the input files used to study the effect of charge carrier concentration on electron-hole recombination dynamics in C3N4 monolayers 
-by performing NA-MD calculations in the extended tight-binding (xTB) framework.
-
 More details on how to run the code are brought in [Libra CompChemCyberTraining](https://github.com/compchem-cybertraining/Tutorials_Libra/tree/master/6_dynamics/2_nbra_workflows) repository. Detailed explanations about installation and running the CP2K inputs can be found in [here](https://github.com/compchem-cybertraining/Tutorials_CP2K).
 
 
