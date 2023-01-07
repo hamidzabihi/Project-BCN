@@ -1,0 +1,26 @@
+#PBS -S /bin/bash
+### General Options ###
+#PBS -N BCN
+#PBS -V
+### Resource Handling ###
+#PBS -l nodes=1:ppn=25
+#PBS -q GPU
+#PBS -l walltime=10:00:00
+### Output Stream Options ###
+### Mail Options ###
+#PBS -m bea
+ 
+### Bash script ###
+cd /home/98722002/Desktop/WORK-DIRECTORY/BCN/03-step2-manybody
+module load intel-mpi-7
+source activate /home/98722002/miniconda3/envs/libra
+source /home/98722002/cp2k-v7/cp2k-7.1.0/tools/toolchain/install/setup
+
+# Load VMD if cube visualization flag is turned on
+#module load cuda/5.5.22 
+module load vmd
+
+
+python run.py
+
+exit 0
