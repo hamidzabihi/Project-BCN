@@ -41,7 +41,7 @@ The computation of the NACs requires the correct path to molecular orbitals over
 ## 4. Nonadiabatic molecular dynamics
 
 The inputs in this folder are used to perform electron-hole recombination dynamics using NA-MD and are adapted to the most recent version of Libra v5.3.0. 
-Below, we explain only about the parameters that you we need to change to perform electron-hole recombination dynamics, such as longer trajectories by repeating the Hamiltonian matrices, defined with `user_nsteps`. Other parameters are fully explained in details in [this link](https://github.com/compchem-cybertraining/Tutorials_Libra/tree/master/6_dynamics/2_nbra_workflows/9_step4_cp2k).
+Below, we explain only about the parameters that you we need to change to perform electron-hole recombination dynamics, such as longer trajectories by repeating the Hamiltonian matrices, defined with `user_nsteps`. Other parameters are fully explained in details in [this link](https://github.com/hamidzabihi/Project-BCN/tree/main/7_namd).
 
 `path_to_npz_files`: The full path to the folder where the NAC were computed. 
 
