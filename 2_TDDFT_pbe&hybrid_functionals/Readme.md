@@ -156,7 +156,7 @@ The results of the TD-DFT calculations with PBE functional was shown in the [tdd
 |HSE06|  3.193  |
 |B3LYP|  3.522  |
 
-Finally, we have provided the B3LYP excitation analysis below. For the B3LYP hybrid functional, the TD-DFT calculations shows more combination of states and the excitonics effects are higher than PBE functional for the 2D perovskite of (BA)2PbI4. Also, less dark states can be observed compared to PBE functional. Another important point is that using B3LYP, the initial excitation energy has reduced from 3.522 eV to 2.778 eV. We can conclude that although the band gap has not a good agreement with experiments, in TDDFT for the first excited state, it will get closer to the experiments.
+Finally, we have provided the B3LYP excitation analysis below. For the B3LYP hybrid functional, the TD-DFT calculations shows more combination of states and the excitonics effects are higher than PBE functional for the 2D BCN monolayer. Also, less dark states can be observed compared to PBE functional. Another important point is that using B3LYP, the initial excitation energy has reduced. We can conclude that although the band gap has not a good agreement with experiments, in TDDFT for the first excited state, it will get closer to the experiments.
 ```
          State    Excitation        Transition dipole (a.u.)        Oscillator
          number   energy (eV)       x           y           z     strength (a.u.)
