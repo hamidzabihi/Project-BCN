@@ -26,16 +26,11 @@ Below you can find the details about how we use these inputs to perform NA-MD fo
 
 ## 1. Molecular dynamics
 
-This folder contains CP2K inputs for molecular dynamics simulations along with compressed trajectory `xyz` files. To uncompress the `tar.bz2` files that contain the trajectories that are splitted into multiple parts, you can do this in these folders:
-
-```
-cat *.tar.bz2.part* > file.tar.gz.joined
-tar xvf file.tar.gz.joined
-```
+This folder contains CP2K inputs for molecular dynamics simulations.
 
 ## 2. Molecular orbitals overlaps
 
-The detialed explanation about different inputs used in this folder for computing the molecular overlaps and time-overlaps using CP2K and Libra are brought in [here](https://github.com/compchem-cybertraining/Tutorials_Libra/tree/master/6_dynamics/2_nbra_workflows/7_step2_cp2k).
+The detialed explanation about different inputs used in this folder for computing the molecular overlaps and time-overlaps using CP2K and Libra are brought in [here](https://github.com/hamidzabihi/Project-BCN/tree/main/5_overlaps).
 This folder also contains all the VMD input files that can be used to plot multiple molecular orbitals on the same geometry using `together_mode` keyword.
 
 ## 3. Nonadiabatic couplings
