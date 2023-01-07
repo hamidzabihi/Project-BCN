@@ -36,7 +36,7 @@ This folder also contains all the VMD input files that can be used to plot multi
 ## 3. Nonadiabatic couplings
 
 The computation of the NACs requires the correct path to molecular orbitals overlaps and time-overlaps. Detailed explanation about the parameters used in the `
-step3.py` files are brought in [thislink](https://github.com/hamidzabihi/Project-BCN/tree/main/7_namd). The NACs are computed between excited states in mixed electron and hole excitation basis that are ordered based on their identities. 
+step3.py` files are brought in [thislink](https://github.com/hamidzabihi/Project-BCN/tree/main/6_nacs). The NACs are computed between excited states in mixed electron and hole excitation basis that are ordered based on their identities. 
 
 
 ## 4. Nonadiabatic molecular dynamics
