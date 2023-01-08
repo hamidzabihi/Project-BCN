@@ -78,6 +78,5 @@ hvib_im[0,:] *= np.sqrt(2)
 
 ## 5. Visualizing
 
-The Python files in folder `8_plot_properties` are multiple files that are used for analyzing and plotting the properties of the generated data from previous steps. The `e-h-recom_res.py` file is used for fitting the NA-MD results and `plot_timescales.py` file is used for plotting the fitted timescales but before running that, ones needs to run `sh extract_data.sh` to generate the average timescales with their error bars. `plot_electronic_properties.py` file is used for plotting the electronic structure poperties such as PDOS, energy vs time, NAC maps, and generating NAC distribution `hdf` files. The user can modify these scripts as desired. One of the most important libraries that we use is `glob` which can be used to find files with specific names. For example, for finding the imaginary part of the Hamiltonians, one can use `glob.glob('/path/to/nac/folder/*im*')` and use the found files for plotting the average NAC maps. 
-
+The Python files in folder `8_plot_properties` are multiple files that are used for analyzing and plotting the properties of the generated data from previous steps. The user can modify these scripts as desired. One of the most important libraries that we use is `glob` which can be used to find files with specific names. For example, for finding the imaginary part of the Hamiltonians, one can use `glob.glob('/path/to/nac/folder/*im*')` and use the found files for plotting the average NAC maps. 
 
